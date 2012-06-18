@@ -497,7 +497,6 @@ public class Group {
    * An interface that dictates the naming scheme to use for storing and filtering nodes on the
    * ZooKeeper server.
    */
-
   public interface NodeNameScheme {
     /**
      * Returns a predicate that filters the names of nodes on the ZooKeeper path, leaving only the
